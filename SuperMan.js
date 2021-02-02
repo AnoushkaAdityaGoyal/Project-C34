@@ -8,7 +8,7 @@ class SuperMan {
       this.width = width;
       this.height = height;
       World.add(world, this.body);
-      this.image = loadImage("Superhero.png");
+      this.image = loadImage("Superhero-01.png");
     }
     display() {
       push();
